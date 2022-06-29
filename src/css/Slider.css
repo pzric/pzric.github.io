@@ -1,0 +1,53 @@
+.carousel-container {
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+  background-color: black;
+  padding: 30px 0 30px 0;
+}
+
+.carousel-title {
+  color: white;
+  width: 30%;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 100px 0 100px;
+}
+
+.slide-container {
+  height: 80%;
+  border-radius: 40px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.slide-container > img {
+  object-fit: contain;
+  transition: all 0.2s ease-in-out;
+}
+
+.slide-container:hover > img {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+.BrainhubCarousel__arrows {
+  background-color: white;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.BrainhubCarousel__arrows >span {
+  border-color: black;
+}
+
+/*
+.BrainhubCarousel__arrows:hover {
+  background-color: white !important;
+}
+
+.BrainhubCarousel__arrows:hover > span {
+  background-color: white !important;
+}
+*/
