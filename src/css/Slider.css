@@ -2,13 +2,13 @@
   display: flex;
   vertical-align: center;
   align-items: center;
-  background-color: black;
+  background-color: #3F4E4F;
   padding: 30px 0 30px 0;
 }
 
 .carousel-title {
   color: white;
-  width: 30%;
+  width: 40%;
   text-align: center;
   font-size: 30px;
   padding: 0 100px 0 100px;
@@ -32,6 +32,24 @@
   opacity: 0.7;
 }
 
+.slide-description {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  padding-left: 30px;
+  border-top-left-radius: 20px;
+  opacity: 0.8;
+}
+
+.slide-description > span {
+  color: white;
+  display: block;
+  font-size: 22px;
+  padding: 20px 0 20px 0;
+}
+
 .BrainhubCarousel__arrows {
   background-color: white;
   border-radius: 50%;
@@ -42,7 +60,6 @@
   border-color: black;
 }
 
-/*
 .BrainhubCarousel__arrows:hover {
   background-color: white !important;
 }
@@ -50,4 +67,19 @@
 .BrainhubCarousel__arrows:hover > span {
   background-color: white !important;
 }
-*/
+
+@media only screen and (max-width: 960px) {
+    .carousel-container {
+      flex-direction: column;
+    }
+
+    .carousel-title {
+      width: 100%;
+      text-align: center;
+      padding: 50px 0 50px 0;
+    }
+
+    .slide-description {
+      width: 100%;
+    }
+}

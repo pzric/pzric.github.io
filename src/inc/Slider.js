@@ -7,6 +7,9 @@ import Slides from '../js/Slides.js';
 const Slider = () => {
   return (
     <div className='carousel-container'>
+      <div className='carousel-title'>
+        <h2>My projects</h2>
+      </div>
       <Carousel
         itemWidth = {400}
         animationSpeed = {200}
@@ -15,34 +18,27 @@ const Slider = () => {
           'arrows',
           'clickToChange', 
           'infinite',
-          'centered', 
+          'centered',
           {
             resolve: slidesToShowPlugin,
             options: {
-            numberOfSlides: 2,
+            numberOfSlides: 3
             }
           },
         ]}
-        breakpoints={{
-          640: {
+        breakpoints = {{
+          960: {
+            itemWidth : 250,
+            offset : 50,
             plugins: [
-             {
-               resolve: slidesToShowPlugin,
-               options: {
-                numberOfSlides: 1
-               }
-             },
-           ]
-          },
-          900: {
-            plugins: [
-             {
-               resolve: slidesToShowPlugin,
-               options: {
-                numberOfSlides: 2
-               }
-             },
-           ]
+              'infinite',        
+              {
+                resolve: slidesToShowPlugin,
+                options: {
+                  numberOfSlides: 1,                   
+                }
+              },
+            ]
           }
         }}
         slides={Slides}

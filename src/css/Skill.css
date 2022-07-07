@@ -1,0 +1,28 @@
+.skills-container {
+  background-color: white;
+  padding: 50px;
+  margin-bottom: 100vh;
+}
+
+.skill-title {
+  text-align: center;
+  color: black;
+  font-size: 26px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-container {
+  height: 80%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.skill-image {
+  width: 10%;
+  height: 10%;
+}
