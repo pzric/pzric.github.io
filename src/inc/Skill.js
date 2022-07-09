@@ -4,14 +4,14 @@ import Skills from '../js/Skills';
 
 const Skill = () => {
   return (
-    <div className='skills-container'>
-      <div className="skill-title">
-        <h1>SKILLS</h1>
+    <section className='skills-container'>
+      <div className="title">
+        <h1>MIS HABILIDADES</h1>
       </div>
       <div className='skills'>
         {Skills}
       </div>
-    </div>
+    </section>
   )
 }
 

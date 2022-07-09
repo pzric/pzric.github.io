@@ -1,28 +1,44 @@
 .skills-container {
+  width: 100%;
+  height: auto;
   background-color: white;
-  padding: 50px;
-  margin-bottom: 100vh;
+  padding: 50px 100px;
 }
 
-.skill-title {
-  text-align: center;
-  color: black;
-  font-size: 26px;
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skill-container {
-  height: 80%;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  margin: 10px 10px;
 }
 
-.skill-image {
-  width: 10%;
-  height: 10%;
+.skill-container img {
+  width: 150px;
+  height: 150px;
+}
+
+.skill-container p {
+  margin: 5px;
+  font-weight: bold;
+}
+
+@media (max-width:767px) {
+  .title {
+    font-size: 20px;
+  }
 }

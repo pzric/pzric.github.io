@@ -4,15 +4,15 @@ import "../css/Cover.css";
 
 const Cover = () => {
   return (
-    <section className='cover-container'>
+    <header className='cover-container'>
       <div className='name'>
         <div className='wrapper-name'>
-          <h1>Ricardo Zamora Picazo</h1>
-          <hr />
-          <p>Web designer | Web developer</p>
+        <h1>Ricardo Zamora Picazo</h1>
+        <hr />
+        <p>Desarrollador jr</p>
         </div>
       </div>
-    </section>
+    </header>
   )
 }
 

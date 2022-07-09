@@ -3,10 +3,9 @@ import React, {useState, useEffect} from 'react';
 import Cover from './inc/Cover';
 import Navbar from './inc/Navbar';
 import About from './inc/About';
-//import Slider from './inc/Slider';
-//import Info from './inc/Info';
-//import Footer from './inc/Footer';
-//import Skill from './inc/Skill';
+import Experience from './inc/Experience';
+import Skill from './inc/Skill';
+import Project from './inc/Project';
 
 function App() {
 
@@ -26,6 +25,9 @@ function App() {
       <Navbar isScrolling={scrollHeight} />
       <Cover />
       <About />
+      <Experience />
+      <Skill />
+      <Project />
     </div>
   );
 }
