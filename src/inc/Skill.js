@@ -5,10 +5,10 @@ import Skills from '../js/Skills';
 const Skill = () => {
   return (
     <section className='skills-container'>
-      <div className="title">
+      <div className='skills-title' data-aos='fade-down'>
         <h1>MIS HABILIDADES</h1>
       </div>
-      <div className='skills'>
+      <div className='skills-content'>
         {Skills}
       </div>
     </section>

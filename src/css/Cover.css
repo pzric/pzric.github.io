@@ -19,7 +19,6 @@
 
 .name .wrapper-name {
   width: 600px;
-  animation: animation 2s;
 }
 
 .name h1 {
@@ -36,32 +35,22 @@
 .name p {
   font-size: 25px;
   text-align: center;
-  margin:15px 10px;
+  margin: 15px 10px;
   color: white;
 }
 
-@keyframes animation {
-  0%{
-    opacity: 0;
-  }50%{
-    opacity: 0.5;
-  }100%{
-    opacity: 1;
-  }
-}
-
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .name .wrapper-name {
     width: 300px;
   }
   
   .name h1 {
-    font-size: 22px;
+    font-size: 28px;
     padding: 5px 10px;
   }
   
   .name p {
-    font-size: 13px;
+    font-size: 20px;
     padding: 5px 10px;
   }
 }

@@ -3,6 +3,7 @@
   height: auto;
   background-color: white;
   padding: 50px 0;
+  overflow-x: hidden;
 }
 
 .about-title {
@@ -28,8 +29,11 @@
 }
 
 .about-content {
-  display: flex;
   padding: 0 100px;
+}
+
+.about-body {
+  display: flex;
 }
 
 .about-desc {
@@ -44,7 +48,6 @@
 
 .about-contact {
   width: 30%;
-  position: relative;
 }
 
 .about-contact ul li {
@@ -52,18 +55,21 @@
 }
 
 @media (max-width:767px) {
+  .about-content {
+    padding: 0 10%;
+}
+
   .about-img {
     margin-bottom: 20px;
-  }
-
-  .about-content {
-    display: block;
-    padding: 0 50px;
   }
 
   .about-desc {
     width: 100%;
     margin: 0;
+  }
+
+  .about-body {
+    display: list-item;
   }
 
   .about-contact {
