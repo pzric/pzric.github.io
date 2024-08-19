@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd9a072b.css",
-    "main.js": "/static/js/main.a510c7e1.js",
+    "main.css": "/static/css/main.c8c332ab.css",
+    "main.js": "/static/js/main.5c0ef7e1.js",
+    "static/media/literalura.png": "/static/media/literalura.7a78ff863731372428b1.png",
+    "static/media/portafolio.png": "/static/media/portafolio.6a441786a1d2c1124ba1.png",
     "static/media/pexelsParas.jpg": "/static/media/pexelsParas.ea7f4c59dea8497b7dad.jpg",
+    "static/media/laravel-template.png": "/static/media/laravel-template.eef944a79a65fb7c008c.png",
+    "static/media/spring-academy.png": "/static/media/spring-academy.72eccf3273e990f3a476.png",
+    "static/media/forohub.png": "/static/media/forohub.d276a8f66706efd8a62e.png",
+    "static/media/githubicon.svg": "/static/media/githubicon.74d13353bde36d2dde5b52360f829273.svg",
     "index.html": "/index.html",
-    "main.fd9a072b.css.map": "/static/css/main.fd9a072b.css.map",
-    "main.a510c7e1.js.map": "/static/js/main.a510c7e1.js.map"
+    "main.c8c332ab.css.map": "/static/css/main.c8c332ab.css.map",
+    "main.5c0ef7e1.js.map": "/static/js/main.5c0ef7e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd9a072b.css",
-    "static/js/main.a510c7e1.js"
+    "static/css/main.c8c332ab.css",
+    "static/js/main.5c0ef7e1.js"
   ]
 }
